@@ -13,6 +13,13 @@ sudo apt-get upgrade
 sudo apt-get install -y build-essential
 ```
 
+If you want to be able to ssh into your box from your virtual host:
+
+```
+sudo apt-get install openssh-server
+```
+
+
 ## SciPy
 
 If you are using scipy, use [Anaconda](https://www.continuum.io/downloads). 
@@ -40,6 +47,10 @@ Consider using [sublime](https://www.sublimetext.com) as your text editor.
 Configuration recommendations:
 
 - install [Package Control](https://packagecontrol.io/installation#st2)
+- consider installing the packages (open quick launch with cntl-shift-p, type pcip [a short form for package control install package], press return, then type the name of the package you want):
+  - git gutter
+  - bracket highlighter
+  - SublimeLinter
 - edit your User settings (Preferences -> Settings - User):
 
 ```
@@ -51,10 +62,5 @@ Configuration recommendations:
   }
 ```
 
-To get started, read [https://blog.generalassemb.ly/sublime-text-3-tips-tricks-shortcuts/]()
-
-
-
-
-
-
+To get started, read [https://blog.generalassemb.ly/sublime-text-3-tips-tricks-shortcuts/]().
+And for more detail: [Sublime Text Unofficial Documentation](http://docs.sublimetext.info/en/latest/)
