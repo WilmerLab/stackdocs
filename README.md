@@ -64,3 +64,15 @@ Configuration recommendations:
 
 To get started, read [https://blog.generalassemb.ly/sublime-text-3-tips-tricks-shortcuts/]().
 And for more detail: [Sublime Text Unofficial Documentation](http://docs.sublimetext.info/en/latest/)
+
+## Preparing your Project
+
+### Licensing
+
+
+Every project must have a license. Unless you have strong reasons to use a different license, use the [MIT license](./sample-LICENSE). Copy that file to your project, add the copyright date and your name, and rename to 'LICENSE'.
+
+We chose the MIT license because it is a BSD-style license. Read up on licensing here:
+
+- [the-whys-and-hows-of-licensing-scientific-code](http://www.astrobetter.com/blog/2014/03/10/the-whys-and-hows-of-licensing-scientific-code/) 
+- [BSD pitch](http://nipy.sourceforge.net/nipy/stable/faq/johns_bsd_pitch.html)
